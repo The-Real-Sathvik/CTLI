@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - TCLI</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="terminal-window">
+    <div class="terminal-topbar">
+      <div class="terminal-logo">&#x25A0; <span class="logo-text">TCLI</span></div>
+      <div class="terminal-nav">
+        <a href="index.html" class="terminal-btn">Home</a>
+      </div>
+    </div>
+    <div class="terminal-content">
+      <h2 class="glow">Initializing new user profile<span class="blinking-cursor">_</span></h2>
+      <form class="terminal-form" autocomplete="off" onsubmit="return false;">
+        <label>Name</label>
+        <input type="text" class="terminal-input" placeholder="Enter your name" autocomplete="off">
+        <label>Roll No</label>
+        <input type="text" class="terminal-input" placeholder="Enter roll number" autocomplete="off">
+        <label>Email</label>
+        <input type="email" class="terminal-input" placeholder="Enter email" autocomplete="off">
+        <label>Password</label>
+        <input type="password" class="terminal-input" placeholder="Enter password" autocomplete="off">
+        <label>Branch</label>
+        <select class="terminal-input" style="color:#0f0; background:#000;" autocomplete="off">
+          <option value="CSE">CSD</option>
+          <option value="CSD">CSE</option>
+          <option value="CSM">CSM</option>
+          <option value="ECE">ECE</option>
+          <option value="IT">IT</option>
+          <option value="EEE">EEE</option>
+          <option value="MECH">MECH</option>
+          <option value="CIVIL">CIVIL</option>
+        </select>
+        <div class="mt-1-2em">
+          <span>Already Registered? <a href="login.html" class="glow-link">Log In</a></span>
+        </div>
+      </form>
+      <div class="terminal-commands">
+  <a href="login.html" class="terminal-command-link">&gt;&#95; Register</a>
+      </div>
+      <div class="dim-note">Profile creation simulated — no authentication</div>
+    </div>
+  </div>
+</body>
+</html>

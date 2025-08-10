@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In - TCLI</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="terminal-window">
+    <div class="terminal-topbar">
+      <div class="terminal-logo">&#x25A0; <span class="logo-text">TCLI</span></div>
+      <div class="terminal-nav">
+        <a href="index.html" class="terminal-btn">Home</a>
+      </div>
+    </div>
+    <div class="terminal-content">
+      <h2 class="glow">Verifying credentials<span class="blinking-cursor">_</span></h2>
+      <form class="terminal-form" autocomplete="off" onsubmit="return false;">
+        <label>Email</label>
+        <input type="email" class="terminal-input" placeholder="Enter email" autocomplete="off">
+        <label>Password</label>
+        <input type="password" class="terminal-input" placeholder="Enter password" autocomplete="off">
+        <div class="mt-1-2em">
+          <span>Haven't Registered? <a href="register.html" class="glow-link">Register</a></span>
+        </div>
+      </form>
+      <div class="terminal-commands">
+        <a href="tests.html" class="terminal-command-link">&gt;&#95; Log In</a>
+      </div>
+      <div class="dim-note">ACCESS GRANTED</div>
+    </div>
+  </div>
+</body>
+</html>
