@@ -20,10 +20,11 @@ select.terminal-input {
 /* Question block and options spacing for test pages */
 .question-block {
 	margin-bottom: 2em;
+  margin-right: 2.2em;
 	padding: 1.2em 1em 1em 1em;
 	background: rgba(24,28,27,0.92);
 	border-radius: 8px;
-	width: 100%;
+	width: 95%;
 	box-sizing: border-box;
 	box-shadow: 0 0 6px #0f0a;
 }
@@ -196,10 +197,10 @@ body {
 
 .typed-lines {
 		margin-bottom: 2.2em;
+    margin-left: 2.2em;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 }
 .typed-line {
 	font-size: 1.1em;
@@ -250,6 +251,7 @@ body {
 	width: 100%;
 	margin-bottom: 1.5em;
 	margin-top: 1.2em;
+  margin-left: 2.2em;
 }
 .terminal-form label {
 	color: #0f0;
@@ -268,6 +270,7 @@ body {
 	padding: 0.5em 1em;
 	outline: none;
 	margin-bottom: 0.5em;
+  margin-right: 2.2em;
 	box-shadow: 0 0 6px #0f03;
 		/* Removed text glow */
 	transition: border 0.2s, box-shadow 0.2s;
@@ -370,7 +373,7 @@ body {
 }
 
 /* Glitch text effect for logo */
-.logo-text {
+/* .logo-text {
 	position: relative;
 }
 .logo-text::before, .logo-text::after {
@@ -392,27 +395,5 @@ body {
 		text-shadow: -2px 0 #ff0;
 	clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
 	transform: translate(1px, 1px);
-}
-
-/* Responsive */
-/* @media (max-width: 600px) {
-		.terminal-window {
-			width: 98vw;
-			min-width: 0;
-			max-width: 100vw;
-			height: auto;
-			padding: 0 0 18px 0;
-      
-		}
-	.terminal-content {
-		padding: 1.2em 0.5em 0.5em 0.5em;
-	}
-	.main-btn {
-		font-size: 1em;
-		padding: 0.5em 1.2em;
-	}
-	.quiz-link {
-		font-size: 1em;
-		padding: 0.3em 0.7em;
-	}
 } */
+
